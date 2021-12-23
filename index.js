@@ -108,6 +108,12 @@ var currentseconds = date.getSeconds();
         currenthours = currenthours-12
         document.getElementById("type").innerHTML="PM"
     }
+    if(currenthours ===0 ){
+
+        currenthours = 12
+
+
+    }
     if(currenthours <10 ){
 
         currenthours = "0" + currenthours
