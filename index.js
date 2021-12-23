@@ -164,6 +164,6 @@ if(namazTime >= 17.17 && namazTime<=17.30){
 if (namazTime >= 18.48 && namazTime <=24){
     document.getElementById("statement").innerHTML= "Time to pray your Ishr prayer"
 }
-if(namazTime > 24 && namazTime <5){
+if(namazTime >=1 && namazTime <5){
     document.getElementById("statement").innerHTML= "You can pray Tahajud now "
 }
