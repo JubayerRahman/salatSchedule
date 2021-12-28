@@ -147,7 +147,7 @@ var namazTime = date.getHours();
 var namazMinute = date.getMinutes();
 
 if(namazTime >= 5 && namazTime<=6.30){
-    document.getElementById(".statement").innerHTML= "Time to pray your Fajr prayer"
+    document.getElementById("statement").innerHTML= "Time to pray your Fajr prayer"
 }
 if(namazTime >= 11.58 && namazTime<=14.30){
     document.getElementById("statement").innerHTML= "Time to pray your Zuhr prayer"
